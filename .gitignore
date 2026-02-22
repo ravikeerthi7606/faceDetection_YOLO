@@ -4,3 +4,5 @@ photos/
 __pycache__/
 *.jpeg
 *.jpg
+*.zip
+*.pt

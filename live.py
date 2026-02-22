@@ -28,7 +28,7 @@ while True:
             cv2.putText(frame, text, (x1, y1-10),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0,255,0), 2)
 
-    cv2.imshow("Live Detection (Hari vs Ravi)", frame)
+    cv2.imshow("Live Detection", frame)
 
     # Press ESC to exit
     if cv2.waitKey(1) & 0xFF == ord('q'):
